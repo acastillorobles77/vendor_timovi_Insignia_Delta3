@@ -99,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
-    vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/timovi/Insignia_Delta3/proprietary/vendor/etc/cdma_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cdma_ecc_list.xml \
