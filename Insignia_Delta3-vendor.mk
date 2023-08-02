@@ -6,14 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/timovi/Insignia_Delta3
 
 PRODUCT_COPY_FILES += \
-    vendor/timovi/Insignia_Delta3/proprietary/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/timovi/Insignia_Delta3/proprietary/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration.xml \
-    vendor/timovi/Insignia_Delta3/proprietary/etc/audio_policy_configuration_stub.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration_stub.xml \
-    vendor/timovi/Insignia_Delta3/proprietary/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_volumes.xml \
     vendor/timovi/Insignia_Delta3/proprietary/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default_volume_tables.xml \
-    vendor/timovi/Insignia_Delta3/proprietary/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/r_submix_audio_policy_configuration.xml \
     vendor/timovi/Insignia_Delta3/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
-    vendor/timovi/Insignia_Delta3/proprietary/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/usb_audio_policy_configuration.xml \
     vendor/timovi/Insignia_Delta3/proprietary/lib/egl/libGLES_android.so:$(TARGET_COPY_OUT_SYSTEM)/lib/egl/libGLES_android.so \
     vendor/timovi/Insignia_Delta3/proprietary/lib/hw/bluetooth.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/bluetooth.default.so \
     vendor/timovi/Insignia_Delta3/proprietary/lib/hw/keystore.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/keystore.default.so \
